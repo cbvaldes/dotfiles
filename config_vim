@@ -1,5 +1,3 @@
-" Symlink: $HOME/.vimrc
-
 if &compatible
 	set nocompatible
 endif

@@ -1,5 +1,3 @@
-# Symlink: $HOME/.gitconfig
-
 [user]
 	name = Camilo Bravo Valdés
 	email = /dev/null
