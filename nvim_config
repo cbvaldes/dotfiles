@@ -37,6 +37,9 @@ vim.keymap.set('n', '<leader>co', '<cmd>edit ~/.config/nvim/init.lua<CR>')
 vim.keymap.set('n', '<leader>le', '<cmd>set list<CR>')
 vim.keymap.set('n', '<leader>ld', '<cmd>set nolist<CR>')
 
+vim.keymap.set('n', '<leader>sce', '<cmd>setlocal spell spelllang=en_us<CR>')
+vim.keymap.set('n', '<leader>scd', '<cmd>setlocal nospell<CR>')
+
 custom_status_line = function()
 	local ctrl_s = vim.api.nvim_replace_termcodes('<C-S>', true, true, true)
 	local ctrl_v = vim.api.nvim_replace_termcodes('<C-V>', true, true, true)
