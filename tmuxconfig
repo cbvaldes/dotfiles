@@ -1,0 +1,15 @@
+# Symlink: $HOME/.tmux.conf
+
+# Set C-a and the prefix key
+set-option -g prefix C-a
+unbind-key C-b
+bind-key a send-prefix
+
+# Vim-like pane traversal
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+
+# No status line
+set-option -g status off
