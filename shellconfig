@@ -1,7 +1,7 @@
 # Symlink: $HOME/.profile is probably the most portable
 # Only POSIX-compliant stuff here, this has to be understood by any shell.
 
-export PS1='┏ \u@\h [\w]\n┗ $ '
+export PS1='┏ (\u@\h)-[\w]\n┗ $ '
 
 export EDITOR=vim
 

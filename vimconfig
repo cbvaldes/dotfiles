@@ -31,7 +31,7 @@ set nobackup
 
 set belloff=all
 
-set listchars=eol:$,tab:>-
+set listchars=eol:$,tab:→\\u0020
 
 " Leader mappings
 
