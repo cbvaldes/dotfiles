@@ -40,8 +40,11 @@ let mapleader = '\'
 nnoremap <leader>rc :source ~/.vimrc<cr>
 nnoremap <leader>lp :call LoadProject()<cr>
 
-nnoremap <leader>ssc :set list<cr>
-nnoremap <leader>hsc :set nolist<cr>
+nnoremap <leader>el :set list<cr>
+nnoremap <leader>dl :set nolist<cr>
+
+nnoremap <leader>esc :setlocal spell spelllang=en_us<cr>
+nnoremap <leader>dsc :setlocal nospell<cr>
 
 " Quick 'n dirty way of loading a project into the editor.
 
