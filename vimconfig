@@ -13,7 +13,7 @@ filetype on
 filetype plugin on
 filetype indent on
 
-set fileformats=unix
+set fileformats=unix,dos
 
 set encoding=utf-8
 set fileencoding=utf-8
