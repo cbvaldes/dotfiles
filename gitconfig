@@ -4,5 +4,8 @@
 	name = Camilo Bravo Valdés
 	email = /dev/null
 
+[core]
+	autocrlf = false
+
 [init]
 	defaultBranch = main
