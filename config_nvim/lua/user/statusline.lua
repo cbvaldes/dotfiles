@@ -2,19 +2,19 @@ local ctrl_s = vim.api.nvim_replace_termcodes("<C-S>", true, true, true)
 local ctrl_v = vim.api.nvim_replace_termcodes("<C-V>", true, true, true)
 
 local status_line_modes = {
-	["n"]    = "   NORMAL ",
-	["v"]    = "   VISUAL ",
-	["V"]    = "   V-LINE ",
-	[ctrl_v] = "  V-BLOCK ",
-	["s"]    = "   SELECT ",
-	["S"]    = "   S-LINE ",
-	[ctrl_s] = "  S-BLOCK ",
-	["i"]    = "   INSERT ",
-	["R"]    = "  REPLACE ",
-	["c"]    = "  COMMAND ",
-	["r"]    = "   PROMPT ",
-	["!"]    = "    SHELL ",
-	["t"]    = " TERMINAL "
+	["n"]    = "   normal ",
+	["v"]    = "   visual ",
+	["V"]    = "   v-line ",
+	[ctrl_v] = "  v-block ",
+	["s"]    = "   select ",
+	["S"]    = "   s-line ",
+	[ctrl_s] = "  s-block ",
+	["i"]    = "   insert ",
+	["R"]    = "  replace ",
+	["c"]    = "  command ",
+	["r"]    = "   prompt ",
+	["!"]    = "    shell ",
+	["t"]    = " terminal "
 }
 
 custom_status_line = function()
