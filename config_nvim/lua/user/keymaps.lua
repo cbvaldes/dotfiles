@@ -16,8 +16,9 @@ vim.keymap.set("n", "<leader>dsc", "<cmd>setlocal nospell<cr>")
 
 vim.keymap.set("n", "<leader>lp",
 	function()
-		if vim.fn.filereadable("project.lua") then
-			vim.cmd("source project.lua")
+		local project_file_name = ".project.lua"
+		if vim.fn.filereadable(project_file_name) then
+			vim.cmd("source " .. project_file_name)
 		else
 			vim.notify("No project file was found", vim.log.levels.ERROR)
 		end
