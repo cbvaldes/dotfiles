@@ -8,6 +8,10 @@ export EDITOR=vim
 export GIT_AUTHOR_DATE='1970-01-01 00:00:00 +0000'
 export GIT_COMMITTER_DATE='1970-01-01 00:00:00 +0000'
 
+if [ -e $HOME/.profile.local ]; then
+	. $HOME/.profile.local
+fi
+
 if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then
 	. $HOME/.nix-profile/etc/profile.d/nix.sh
 fi
