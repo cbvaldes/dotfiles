@@ -1,0 +1,8 @@
+# Symlink: $HOME/.gitconfig
+
+[user]
+	name = A Stinky Martian
+	email = stinkymartian@theuniverse.net
+
+[init]
+	defaultBranch = main

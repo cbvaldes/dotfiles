@@ -1,0 +1,13 @@
+# Symlink: $HOME/.profile is probably the most portable
+# Only POSIX-compliant stuff here, this has to be understood by any shell.
+
+export PS1='┏ \u@\h [\w]\n┗ $ '
+
+export EDITOR=vim
+
+export GIT_AUTHOR_DATE='1970-01-01 00:00:00 +0000'
+export GIT_COMMITTER_DATE='1970-01-01 00:00:00 +0000'
+
+if [ -e $HOME/.nix-profile/etc/profile.d/nix.sh ]; then
+	. /home/camilo/.nix-profile/etc/profile.d/nix.sh
+fi
