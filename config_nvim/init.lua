@@ -1,5 +1,5 @@
-require "options"
-require "autocmds"
-require "keymaps"
-require "colorscheme"
-require "statusline"
+require 'options'
+require 'keymaps'
+require 'autocmds'
+require 'colorscheme'
+require 'statusline'
